@@ -82,7 +82,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Heeee llo helo to <b>Gatsby!</b>
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
@@ -115,6 +115,87 @@ const IndexPage = () => (
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
     ))}
+
+    <StaticImage
+      src="../images/dog.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog1.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog2.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog3.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog4.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog5.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog6.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog7.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog8.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+
+    <StaticImage
+      src="../images/dog9.jpg"
+      alt="A dog"
+      placeholder="blurred"
+      layout="fullWidth"
+      objectFit='cover'
+    />
+    
   </Layout>
 )
 
