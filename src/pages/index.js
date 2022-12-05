@@ -69,11 +69,13 @@ const moreLinks = [
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
-const IndexPage = () => (
+const IndexPage = props => (
   <Layout>
+    <h1>A new title</h1>
+
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../assets/images/example.png"
         loading="eager"
         width={64}
         quality={95}
@@ -117,7 +119,7 @@ const IndexPage = () => (
     ))}
 
     <StaticImage
-      src="../images/dog.jpg"
+      src="../assets/images/dog.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -125,7 +127,7 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog1.jpg"
+      src="../assets/images/dog1.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -133,7 +135,7 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog2.jpg"
+      src="../assets/images/dog2.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -141,7 +143,7 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog3.jpg"
+      src="../assets/images/dog3.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -149,7 +151,7 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog4.jpg"
+      src="../assets/images/dog4.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -157,7 +159,7 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog5.jpg"
+      src="../assets/images/dog5.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -165,7 +167,7 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog6.jpg"
+      src="../assets/images/dog6.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -173,7 +175,7 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog7.jpg"
+      src="../assets/images/dog7.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -181,7 +183,7 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog8.jpg"
+      src="../assets/images/dog8.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
@@ -189,13 +191,13 @@ const IndexPage = () => (
     />
 
     <StaticImage
-      src="../images/dog9.jpg"
+      src="../assets/images/dog9.jpg"
       alt="A dog"
       placeholder="blurred"
       layout="fullWidth"
       objectFit='cover'
     />
-    
+
   </Layout>
 )
 
