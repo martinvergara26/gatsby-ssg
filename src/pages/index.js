@@ -74,17 +74,8 @@ const IndexPage = props => (
     <h1>A new title</h1>
 
     <div className={styles.textCenter}>
-      <StaticImage
-        src="../assets/images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
       <h1>
-        Heeee llo helo to <b>Gatsby!</b>
+        Changed dog photo
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
